@@ -1,0 +1,46 @@
+Detalhamento da Arquitetura da IA
+Participantes
+97117 - Rafael Vieira Pinto
+97019 - Lucas Satoru Shiaku
+97582 - LEONARDO DE BARROS SILVA
+96731 - Kaik Wulck Bassanelli
+97282 - Pablo Lage Carral
+Coleta de Dados:
+Utilização do dataset da Amazon, que contém informações sobre diversos tipos de 
+produtos, como eletrônicos.
+Pré-processamento de Dados:
+Limpeza dos dados para remover informações irrelevantes ou duplicadas, tratamento de 
+valores ausentes e padronização dos formatos dos dados, garantindo a consistência e a 
+qualidade dos dados para análise.
+Modelagem de Linguagem Natural (NLP):
+Desenvolvimento de modelos de NLP para compreender as solicitações dos clientes. Isso 
+inclui técnicas como tokenização, lematização e criação de embeddings de palavras para 
+entender a linguagem natural usada nas consultas.
+Análise de Intenção:
+Implementação de algoritmos de análise de intenção para interpretar as solicitações dos 
+clientes, identificando a categoria de produtos desejada e as características importantes, 
+como preço, avaliação e marca.
+Consulta ao Dataset:
+Desenvolvimento de um mecanismo de consulta ao dataset da Amazon para buscar 
+produtos que correspondam à solicitação do cliente, levando em conta os filtros 
+definidos pela análise de intenção.
+Seleção do Melhor Produto:
+Implementação de algoritmos para selecionar o produto com o melhor preço e a melhor 
+avaliação dentro dos resultados da consulta ao dataset, considerando também outros 
+critérios relevantes definidos pelo cliente.
+Apresentação dos Resultados:
+Criação de uma interface intuitiva para apresentar os resultados ao cliente de forma clara 
+e organizada, exibindo informações como nome do produto, preço, avaliação e uma 
+imagem representativa do produto.
+Feedback do Usuário:
+Incorporação de mecanismos de feedback para coletar informações sobre a satisfação 
+do cliente com os resultados apresentados, permitindo ajustes e melhorias contínuas na 
+IA.
+Segurança e Privacidade:
+Garantia da segurança e privacidade dos dados dos clientes e do dataset da Amazon, 
+seguindo as melhores práticas de proteção de dados e conformidade com regulamentos 
+de privacidade.
+Monitoramento e Manutenção:
+Implementação de sistemas de monitoramento para acompanhar o desempenho da IA 
+em tempo real, identificar possíveis falhas ou desvios de desempenho e realizar 
+manutenções periódicas para garantir a eficácia e a confiabilidade da IA
